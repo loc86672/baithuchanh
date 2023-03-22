@@ -1,0 +1,122 @@
+import 'dart:io';
+import 'dart:ffi';
+
+//cau1
+//void main(){
+//	print("Hay nhap ten cua ban");
+//	string? name = stdin.readLineSync();
+//	print("Ten day du la ${name}" );	 
+//}
+
+//cau2
+//void main(){
+//	string firstname = "John";
+//	string lastname = "Doe";
+//
+//	print(""Hello im $firstname $lastname" and 'Hello im $firstname $lastname'"); 
+//}
+
+//cau3
+//void main(){
+//	const a = 7;
+//	print(a);
+//}
+
+//cau4
+//void main(){
+//	num p = 1;
+//	num t = 2;
+//	num r = 3
+//	double Formula = (p*t*r/100);
+
+//	print($Formula);
+//}
+
+
+//cau5
+//void main(){
+//	print ("Nhap so a: ");
+//	int? a = int.parse(stdin.readLineSync()!) ;
+//
+//	double square = a*a;
+//
+//	print ("Binh phuong cua so a la: ${square}"); 
+//}
+
+
+//cau6
+//void main(){
+//	print("Hay nhap Firstname");
+//	string? firstname = stdin.readLineSync();
+//
+//
+//	print("Hay nhap Lastname");
+//	string? lastname = stdin.readLineSync();
+//
+//	print("Ten day du la ${firstname} ${lastname}" );	 
+//}
+
+
+//cau7
+//void main(){
+//	num a = 6;
+//	num b = 3;
+//
+//	double z = a/b;
+//	double q = a%b;
+//
+//	print("phan nguyen la: $z");
+//	print("phan du la: $q");
+//}
+
+//cau8
+//void main(){
+//	print("nhap so a:");
+//	int? a = int.parse(stdin.readLineSyncI()!);
+//	print("nhap so b:");
+//	int? b = int.parse(srdin.readLineSync()!);
+//
+//	int tg;
+//	tg = a;
+//	a = b;
+//	b = tg; 
+//
+//	print("Hai so sau khi dao");
+//	print("So a: ${a}");
+//	print("So b: ${b}");
+//}
+
+
+//cau9
+//void main(){
+//	print("string =  dart  is fun  ");
+//	String name = "  dart  is fun  ";
+//	print ("remove all whitespaces from string.");
+//	name = name.trim();
+//	name = name.replaceAll("  ", "  ");
+//	print(name);
+//}
+
+
+//cau10
+//void main(){
+//  print("string a =123:");
+//  print("Write a dart program to convert String to int.");
+//  String a = "123";
+//  print("type of a is:");
+//  print(a.runtimeType);
+//  int b = int.parse(a);
+//  print("type of a is:");
+//  print(b.runtimeType);
+//}
+
+//cau11
+//void main() {
+//  print("total bill amount:");
+//  int? a = int.parse(stdin.readLineSync()!);
+//  print("number of people:");
+//  int? b = int.parse(stdin.readLineSync()!);
+//  print("bill:");
+//  print("Formula= (total bill amount) / number of people bill");
+//  print(a / b);
+//}
