@@ -1,0 +1,117 @@
+import 'dart:io';
+//cau1
+
+// void main(){
+// 	print("Nhap so A: ");
+// 	int? a = int.parse(stdin.readLineSync()!);
+//
+// 	if(a%2 == 0){
+// 		print("A la so chan");
+// 	}
+// 	else{
+// 		print("A la so le");
+// 	}
+// }
+
+
+ //cau2
+
+ //void main(){
+ //	print("Nhap 1 chu cai: ");
+ //	var z = stdin.readLineSync();
+ //	
+ //	if(z == "u" || z == "e" || z == "o" || z == "a" || z == "i"){
+ //		print("la nguyen am");
+ //	}
+ //	else{
+ //		print("la phu am");
+ //	}
+ //}
+
+
+//cau3
+
+//void main(){
+// 	print("Nhap so A: ");
+// 	int? a = int.parse(stdin.readLineSync()!);
+//
+// 	if(a == 0){
+// 		print("A la so khong");
+// 	}
+// 	if(a<0){
+// 		print("A la so am");
+// 	}
+// 	if(a>0){
+// 		print("A la so duong");
+// 	}
+// }
+
+//cau4
+//void main() {
+//  for (int i = 1; i <= 100; i++) {
+//    print("Nguyen Xuan Anh");
+//  }
+//}
+
+//cau5
+//void main(List<String> args) {
+//  print("Nhập dãy số cần tính tổng cách nhau dấu cách");
+//  String? a = stdin.readLineSync();
+//  a = a!.trim();
+//  a = a.replaceAll(RegExp(' '), '');
+//  num sum = 0;
+//  for (int i = 0; i < a.length; i++) {
+//    sum = sum + int.parse(a[i]);
+//  }
+//  print(sum);
+//}
+
+//cau6
+//void main(){
+//	for(int i = 0; i<=10; i++){
+//		print("5x${i} = ${5*i}");
+//	}
+//}
+
+
+//cau7
+//void main(List<String> args) {
+//  print("Bảng cửu chương:");
+//  for (int i = 1; i <= 9; i++) {
+//    for (int j = 1; j <= 10;j++) 
+//      print("${i} x ${j} = ${i * j}");
+//  }
+//}
+
+//cau8
+//void main(List<String> args) {
+//  print("Nhập số a: ");
+//  double? a = double.parse(stdin.readLineSync()!);
+//  print("Nhập toán tử {1: + || 2: - || 3: * || 4: : ");
+//  int? tt = int.parse(stdin.readLineSync()!);
+//  print("Nhập số b: ");
+//  double? b = double.parse(stdin.readLineSync()!);
+//  if (tt == 1) {
+//    print(a+b);
+//  }
+//  if (tt == 2) {
+//    print(a-b);
+//  }
+//  if (tt == 3) {
+//    print(a*b);
+//  }
+//  if (tt == 4) {
+//    print(a/b);
+//  }
+//}
+
+//cau9
+//void main(){
+//	for (int i = 1; i <= 100; i++) {
+//	    
+//	    if( i==41 ){
+//	    	continue;
+//	    }
+//	    print(i);
+//  	}
+//}
