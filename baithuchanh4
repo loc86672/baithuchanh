@@ -1,0 +1,128 @@
+import 'dart:io';
+import 'dart:ffi';
+import 'dart:math';
+
+//cau1
+//void main(){
+//	List<String> drinks = ["water", "juice", "milk", "coke"];
+//	print(drinks);
+//}
+
+//cau2
+//void main(){
+//	List<String> fruits = ["apple", "bananas", "cherry", "strawberry"];
+//	fruits.forEach((n) => print(n));
+//}
+
+//cau3
+//void main(){
+//	 List<double> expenses = [];
+//  while (true) {
+//    stdout.write('Enter expense amount (or "done" to finish): ');
+//    String input = stdin.readLineSync()?.trim() ?? '';
+//    
+//    if (input.toLowerCase() == 'done') {
+//      break;
+//    } else {
+//      double expense = double.tryParse(input) ?? 0;
+//      expenses.add(expense);
+//    }
+//  }
+//  double total = expenses.reduce((value, element) => value + element);
+//  print('Total Expense: \$$total');
+//}
+
+
+//cau4
+
+//void main(){
+//	List<int> days = [];
+//	for(int i=1; i<=7; i++){
+//		days.add(i);
+//	}
+//	print (days);
+//	
+//}
+
+//cau5
+//void main(){
+//	List<String>names=[];
+//	names.add("anh");
+//	names.add("Tung");
+//	names.add("Quoc Anh");
+//	names.add("Hoang Anh");
+//	names.add("Chinh");
+//	names.add("Phu");
+//	names.add("Giang");
+//
+//	List<String> startWitha =
+//    names.where((element) => element.startsWith("a")).toList();
+//
+//  print(startWitha);	
+//}
+
+//cau6
+//void main() {
+//  Map<String, dynamic> person = {
+//    'name': 'John Doe',
+//    'address': '123 Main St',
+//    'age': 35,
+//    'country': 'USA'
+//  };
+//
+//  
+//  person['country'] = 'Canada';
+//
+//  
+//  for(MapEntry person in person.entries){
+//    print(' ${person.key}:  ${person.value}');
+//	}
+//}
+
+
+//cau7
+//void main() {
+//  Map<String, String> contactMap = {
+//    "John": "1234567890",
+//    "Mary": "5555555555",
+//    "Bob": "2222",
+//    "Kate": "9876543210",
+//  };
+//
+//  
+//  Iterable<String> keysWithLength4 = contactMap.keys.where((key) => key.length == 4);
+//
+//
+//  print("Keys with length 4:");
+//  keysWithLength4.forEach((key) => print(key));
+//}
+
+//cau8
+//void main(List<String> args) {
+//  List<String> todo = [];
+//  while (true) {
+//    print("Chon che do: \n 1:Them \n 2:Xoa \n 3:Xem");
+//    int choice = int.parse(stdin.readLineSync()!);
+//    switch (choice) {
+//      case 1:
+//        print("Nhap nhiem vu: ");
+//        String input = stdin.readLineSync() ?? "";
+//        todo.add(input);
+//        break;
+//      case 2:
+//        print("Nhap thu tu task muon xoa:");
+//        int input = int.parse(stdin.readLineSync()!) - 1;
+//        todo.removeAt(input);
+//        break;
+//      case 3:
+//        print('To-Do List:');
+//        for (int i = 0; i < todo.length; i++) {
+//          print('${i + 1}. ${todo[i]}');
+//        }
+//        break;
+//    }
+//  }
+//}
+
+
+
