@@ -1,0 +1,73 @@
+import 'dart:io';
+//cau1
+//void main(List<String> args) {
+//  File file = File('hello.txt');
+//  file.writeAsStringSync('Nguyen Xuan Anh');
+//  print('File written.');
+//}
+
+//cau2
+//void main(List<String> args) {
+//  File file = File('hello.txt');
+//  file.writeAsStringSync('\nNguyen Thanh Tung.', mode: FileMode.append);
+//  print('Congratulations!! New content is added on top of previous content.');
+//}
+
+//cau3
+//void main(List<String> args) {
+//  File file = File('C:\\Users\\HP\\Desktop\\dart\\hello.txt');
+//  String contents = file.readAsStringSync();
+//  print(contents);
+//}
+
+//cau4
+//void main(List<String> args) {
+//  String src = "C:\\Users\\HP\\Desktop\\dart\\hello.txt";
+//  String dst = "C:\\Users\\HP\\Desktop\\dart\\hello_copy.txt";
+//  File file = File(src);
+//  file.copy(dst);
+//  print('da copy');
+//}
+
+//cau5
+//void main(List<String> args) {
+// 
+//  String dirPath = 'C:\\Users\\HP\\Desktop\\dart\\';
+//  for (int i = 1; i <= 100; i++) {
+//    File f = new File(dirPath + 'file$i.txt');
+//    f.createSync();
+//  }
+//}
+
+//cau6
+
+//void main(List<String> args) {
+//  File file = File('hello_copy.txt');
+//  
+//  if (file.existsSync()) {
+//    
+//    file.deleteSync();
+//    print('File deleted.');
+//  } else {
+//    print('File does not exist.');
+//  }  
+//}
+
+//cau7
+//void main(List<String> args) {
+//  File file = File("students.csv");
+//  file.writeAsStringSync('Name,Phone\n');
+//  print('Nhap so hs can nhap thong tin');
+//  int? n = int.parse(stdin.readLineSync()!);
+//  for (int i = 0; i < n; i++) {
+//    stdout.write("Enter name of student ${i + 1}: ");
+//    String? name = stdin.readLineSync();
+//    stdout.write("Enter phone of student ${i + 1}: ");
+//    String? phone = stdin.readLineSync();
+//    stdout.write("Enter student's address ${i + 1}: ");
+//    String? address = stdin.readLineSync();
+//    file.writeAsStringSync('$name,$phone\n, $address\n', mode: FileMode.append);
+//
+//  }  
+//}
+  
