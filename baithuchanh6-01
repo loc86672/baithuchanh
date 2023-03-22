@@ -1,0 +1,44 @@
+//cau1
+//class Laptop {
+//  String? NAME;
+//  int? ID;
+//  String? RAM;
+//
+//  void display() {
+//    print("Laptop name: $NAME.");
+//    print("Laptop ID: $ID.");
+//    print("Laptop RAM: $RAM.");
+//  }
+//}
+
+//void main() {
+//  Laptop laptop = Laptop();
+//  laptop.NAME = "Lenovo";
+//  laptop.ID = 012345;
+//  laptop.RAM = "8GB";
+//  laptop.display();
+//}
+
+//cau2
+//class House {
+//  String? NAME;
+//  int? ID;
+//  String? PRIZE;
+//  House(String NAME, int ID, String PRIZE) {
+//    print(
+//        "Constructor called"); // this is for checking the constructor is called or not.
+//    this.NAME = NAME;
+//    this.ID = ID;
+//    this.PRIZE = PRIZE;
+//  }
+//  void display() {
+//    print("House name: $NAME.");
+//    print("House ID: $ID.");
+//    print("House PRIZE: $PRIZE.");
+//  }
+//}
+
+//void main() {
+//  House house = House("cấp 1", 012345, "villa house");
+//  house.display();
+//}
