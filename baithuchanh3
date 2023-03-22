@@ -1,0 +1,131 @@
+import 'dart:io';
+import 'dart:ffi';
+import 'dart:math';
+//bai1
+
+//void printName(){
+//	print("Nguyen Xuan Anh");
+//}
+//
+//void main(){
+//	printName();
+//}
+
+//bai2
+
+//int timsochan(int a){
+//	if(a % 2 == 0){
+//		return 1;
+//	}
+//	else{
+//		return 0;
+//	}
+//}
+
+//void main(){
+//	print("Nhap so a: ");
+//	int? a = int.parse(stdin.readLineSync()!);
+//
+//	print("Nhap so b: ");
+//	int? b = int.parse(stdin.readLineSync()!);
+//
+//
+//	print("Cac so chan trong khoang a va b la: ");
+//	for(int i = a; i<=b; i++){
+//		if(timsochan(i) == 1){
+//			print(i);
+//		}
+//		
+//	}
+//}
+
+
+//bai3
+
+
+//String generatePassword() {
+//  String upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+//  String lower = 'abcdefghijklmnopqrstuvwxyz';
+//  String numbers = '1234567890';
+//  String symbols = '!@#\$%^&*()<>,./';
+//  int passLength = 16;
+//  String seed = upper + lower + numbers + symbols;
+//  String password = '';
+//  List<String> list = seed.split('').toList();
+//  Random rand = Random();
+//
+//  for (int i = 0; i < passLength; i++) {
+//    int index = rand.nextInt(list.length);
+//    password += list[index];
+//  }
+//  return password;
+//}
+//
+//void main() {
+//  print('Mat khau ngau nhien duoc tao:');
+//  print(generatePassword());
+//}
+
+
+//bai4
+//double tinhdientich(int a){
+//	double S = 3.14*a*a;
+//	return S;
+//}
+//
+//void main(){
+//	print('Nhap ban kinh duong tron:');
+//	int r = int.parse(stdin.readLineSync()!);
+//
+//	print("Dien tich hinh tron la: ${tinhdientich(r)}");
+//}
+
+
+//bai5
+//int pytago(int a, int b, int c ){
+//	if(a*a + b*b == c*c || a*a + c*c == b*b || b*b + c*c == a*a){
+//		return 1;
+//	}
+//	else{
+//		return 0;
+//	}
+//}
+//
+//void main(){
+//	print("Nhap canh tam giac a: ");
+//	int a = int.parse(stdin.readLineSync()!);
+//
+//	print("Nhap canh tam giac b: ");
+//	int b = int.parse(stdin.readLineSync()!);
+//
+//	print("Nhap canh tam giac c: ");
+//	int c = int.parse(stdin.readLineSync()!);
+//
+//	if(pytago(a, b, c) == 1){
+//		print("day la tam giac vuong");
+//	}
+//
+//	else{
+//		print("day ko phai la tam giac vuong");
+//	}
+//}
+
+// bai6
+//void main() {
+//  var coflutter = 'Coflutter';
+//  print(reverseStringUsingSplit(coflutter));
+//}
+//
+//String reverseStringUsingSplit(String input) {
+//  var chars = input.split('');
+//  return chars.reversed.join();
+//}
+
+//bai7
+//void main(){
+//	int a = int.parse(stdin.readLineSync()!);
+//	int n = int.parse(stdin.readLineSync()!);
+//	num result = pow(a, n);
+//	
+//	print(result);
+//}
